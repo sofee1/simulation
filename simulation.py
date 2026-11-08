@@ -46,7 +46,7 @@ root.geometry("450x220")
 
 label = tk.Label(
     root,
-    text="Type Arabic or English below.\nPress ESC to exit."
+    text="Type something"
 )
 
 label.pack(pady=20)

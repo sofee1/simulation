@@ -32,7 +32,7 @@ try:
                 print("Received:", message)
 
                 with open(LOG_FILE, "a", encoding="utf-8") as file:
-                    file.write(message + "\n")
+                    file.write(message)
                     file.flush()
 
 except KeyboardInterrupt:
